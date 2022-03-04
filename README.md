@@ -1,10 +1,26 @@
 # syno_announcement
+
 # ANNOUNCEMENT-SYSTEM
-ANIMATED ANNOUNCEMENT SYSTEM 
 
+## Description
 
-THIS IS A SIMPLE FIVEM SCRIPT OF ANIMATED ANNOUNCEMENT...
+- Hi, THIS IS A SIMPLE FIVEM SCRIPT OF ANIMATED ANNOUNCEMENT...
+- Working perfectly.
 
-#INSTALLATION :
-  1)DOWNLOAD THE FILE.
-  2)"ensure syno_announcement" ADD THIS TO YOUR SERVER.CFG. 
+### Download & instalation
+
+#### Using GIT
+
+```sh
+cd resources/
+git clone https://github.com/SYNOGIM/syno_announcement/edit/main
+```
+
+#### Manualy
+
+- Download <https://github.com/SYNOGIM/syno_announcement/edit/main>
+- Put it in the `resource` repository
+
+### Instalation
+
+- Add `ensure syno_announcement` to your `server.cfg`.
