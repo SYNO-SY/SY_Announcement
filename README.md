@@ -4,7 +4,7 @@
 
 ## Description
 
-- Hi, THIS IS A SIMPLE FIVEM SCRIPT OF ANIMATED ANNOUNCEMENT...
+- Hi, this is a simple fivem script of animated announcement...
 - Working perfectly.
 
 ### Download & instalation
@@ -15,7 +15,6 @@
 cd resources/
 git clone https://github.com/SYNOGIM/syno_announcement
 ```
-
 #### Manualy
 
 - Download <https://github.com/SYNOGIM/syno_announcement>
@@ -24,3 +23,6 @@ git clone https://github.com/SYNOGIM/syno_announcement
 ### Instalation
 
 - Add `ensure syno_announcement` to your `server.cfg`.
+
+### Usage
+- Type `\ann "message"` in your Chat 
