@@ -13,12 +13,12 @@
 
 ```sh
 cd resources/
-git clone https://github.com/SYNOGIM/syno_announcement/edit/main
+git clone https://github.com/SYNOGIM/syno_announcement/main
 ```
 
 #### Manualy
 
-- Download <https://github.com/SYNOGIM/syno_announcement/edit/main>
+- Download <https://github.com/SYNOGIM/syno_announcement/main>
 - Put it in the `resource` repository
 
 ### Instalation
