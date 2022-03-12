@@ -7,6 +7,9 @@
 - Hi, this is a simple fivem script of animated announcement...
 - Working perfectly.
 
+### PREVIEW
+link:- https://streamable.com/hd2578
+
 ### Download & instalation
 
 #### Using GIT
