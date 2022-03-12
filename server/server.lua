@@ -9,17 +9,10 @@ function strikethrough(text) return "<del>"..text.."</del>" end
 function italic(text) return "<i>"..text.."</i>" end
 function big(text) return "<big>"..text.."</big>" end
 
-RegisterCommand("announce", function(source, args)
+RegisterCommand("ann", function(source, args)
     local argString = table.concat(args, " ")
     if argString ~= nil then
         TriggerClientEvent('syno_announce:display', -1, '[T L R P]',  argString, 10000)
-    end
-end, true)
-
-RegisterCommand("announce2", function(source, args)
-    local argString = table.concat(args, " ")
-    if argString ~= nil then
-        TriggerClientEvent('syno_announce:display', -1, 'purple', 'Color Update test',  argString, 10000)
     end
 end, true)
 
