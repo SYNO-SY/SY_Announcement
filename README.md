@@ -29,3 +29,7 @@ git clone https://github.com/SYNOGIM/syno_announcement
 
 ### Usage
 - Type `\ann "message"` in your Chat 
+
+### DISCORD :
+𝐒 𝐘 𝐍 𝐎#1760
+
