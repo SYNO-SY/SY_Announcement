@@ -9,6 +9,7 @@
 
 ### PREVIEW
 link:- https://streamable.com/hd2578
+![announcement_Moment](https://user-images.githubusercontent.com/89760730/160332128-80ff126f-bce3-42ac-bd8a-9b2ae21dec69.jpg)
 
 ### Download & instalation
 
