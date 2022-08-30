@@ -9,8 +9,8 @@ function strikethrough(text) return "<del>"..text.."</del>" end
 function italic(text) return "<i>"..text.."</i>" end
 function big(text) return "<big>"..text.."</big>" end
 
-RegisterNetEvent("syno_announce:display")
-AddEventHandler("syno_announce:display", function(title, msg, time)
+RegisterNetEvent("sy_announce:display")
+AddEventHandler("sy_announce:display", function(title, msg, time)
 	PlaySoundFrontend(-1, "CHALLENGE_UNLOCKED", "HUD_AWARDS", 1)
 	ShowNotify(title, msg, time)
 end)
@@ -30,7 +30,7 @@ function ShowNotify(title, msg, time)
 		Wait(time)
 		TriggerEvent('message:hide')
 	else
-		print("S Y N O DEVELOPMENT!")
+		print("message should not be null")
 	end
 end	
 	
@@ -65,7 +65,7 @@ AddEventHandler('message:hide', function()
 	  title = nil,
 	  message = nil
     })
- end)
+end)
   
 AddEventHandler("onResourceStart", function(resource)
 	if resource == GetCurrentResourceName() then
