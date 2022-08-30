@@ -1,7 +1,9 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
-
+author 'SYNO'
+version '1.1'
+lua54 'yes'
 
 client_scripts {
     'client/client.lua',
