@@ -1,4 +1,4 @@
-local _break = "<br>"
+--[[local _break = "<br>"
 local linestrike = "<hr>"
 
 function color(color, text) return "<font color="..color..">"..text.."</font>" end
@@ -7,7 +7,7 @@ function bold(text) return "<strong>"..text.."</strong>" end
 function small(text) return "<small>"..text.."</small>" end
 function strikethrough(text) return "<del>"..text.."</del>" end
 function italic(text) return "<i>"..text.."</i>" end
-function big(text) return "<big>"..text.."</big>" end
+function big(text) return "<big>"..text.."</big>" end]]
 
 RegisterNetEvent("sy_announce:display")
 AddEventHandler("sy_announce:display", function(title, msg, time)
