@@ -25,7 +25,7 @@ html, body{
 .toast {
     text-align:left;
     padding: 21px 0;
-    background-image: url("https://i.pinimg.com/originals/e3/77/46/e377461761c8ab33fbb713ada400984a.gif");    /*change this link to make your custom animated background*/
+    background-image: url("https://cdn.discordapp.com/attachments/954263572874137671/973958795959078962/ScrawnySharpCowrie-mobile.gif");    /*change this link to make your custom animated background*/
     border-radius:4px;
     max-width: 500px;
     top: 0px;
@@ -34,7 +34,9 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border-right: 4px #ff00ea solid;
+    border-right: 4px #be0606 solid;
+    border-left: 4px #be0606 solid;
+
 }
 
 
@@ -51,20 +53,15 @@ html, body{
 
 }
 
-.toast__icon{
-  color: #FF3D3D;
-  position:absolute;
-  top:40%;
-  left:5px;
-  transform:translateY(-50%);
-  width:27px;
-  height:27px;
-  padding: 7px;
-  font-size: 40px;
+img.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .toast__type {
-  color: rgb(235, 14, 255);
+  color: rgb(203, 12, 12);
+  font-family: 'Courgette', cursive;
   font-weight: 700;
   font-size: 15px;
   margin-top: 0;
@@ -73,6 +70,7 @@ html, body{
 }
 
 .toast__message {
+    font-family: 'Gentium Basic', serif;
     font-size: 19px;
     margin-top: 0;
     margin-bottom: 0;
